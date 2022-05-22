@@ -1,0 +1,35 @@
+:host{
+    .item{
+        background-color: #FFFFFF;
+        position: relative;
+        .badge{
+            position: absolute;
+            inset: 0px auto auto 0px;
+            background-color: #2e7c90;
+            color: #FFF;
+            width: 20%;
+            text-transform: uppercase;
+            text-align: center;
+            font-size: .7em;
+            padding: .3rem 0px;
+        }
+        img{
+            width: 100%;
+            background-color: #e7e8ea;
+        }
+        .content{
+            >*{
+                text-align: center;
+                text-transform: uppercase;
+            }
+            h4{
+                text-align: left;
+                color: #292929;
+            }
+            .price{
+                text-align: left;
+                color: #78787a;
+            }
+        }
+    }
+}

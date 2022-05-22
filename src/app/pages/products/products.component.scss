@@ -1,0 +1,9 @@
+:host{
+    display: grid;
+    grid-template-columns: minmax(150px,1fr) 6fr;
+    height: 100%;
+    aside{
+        background-color: red;
+        height: 100%;
+    }
+}

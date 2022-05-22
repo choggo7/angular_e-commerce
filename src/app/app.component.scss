@@ -1,0 +1,10 @@
+::ng-deep * {
+    padding: 0px;
+    margin: 0px;
+}
+router-outlet + ::ng-deep * > *{
+    margin-top: 2.5rem;
+    background-color: aquamarine;
+    height: 100%;
+    width: 100%;
+ }
